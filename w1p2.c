@@ -1,3 +1,5 @@
+//Write a C Program to Scan and Count the number of characters,
+//words, and lines (input string from command prompt).
 #include<stdio.h>
 #include<string.h>
 

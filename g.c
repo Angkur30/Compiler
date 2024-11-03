@@ -1,3 +1,5 @@
+// Write a C Program to concatenate two strings.
+
 #include<stdio.h>
 #include<string.h>
 

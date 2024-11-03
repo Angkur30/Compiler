@@ -1,3 +1,4 @@
+//: Write a C program that will remove white space from a string.
 #include<stdio.h>
 #include<string.h>
 // void modify(char *str,int len)

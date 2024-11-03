@@ -1,3 +1,4 @@
+//Write a C\C++ Program that accepts a+.
 #include<stdio.h>
 #include<string.h>
 

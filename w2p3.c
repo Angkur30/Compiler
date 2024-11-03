@@ -1,3 +1,4 @@
+//Write a C\C++ Program that accepts a*b (read input from file).
 #include<stdio.h>
 #include<string.h>
 

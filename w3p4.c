@@ -1,3 +1,4 @@
+//Write a C program that will tokenize a string using strtok() library function.
 #include<stdio.h>
 #include<string.h>
 
