@@ -2,9 +2,18 @@
 #include<string.h>
 #include<ctype.h>
 
-char *keywords[] = {"int", "float", "char", "double", "if", "else", "while", "for", "do",
-                    "switch", "case", "break", "continue", "return", "void", "string"};
-char operators[] = "+-*/%=<>", delimiters[] = ",;(){}[]";
+char *keywords[] = {
+    "auto", "break", "case", "char", "const", "continue", "default", "do", 
+    "double", "else", "enum", "extern", "float", "for", "goto", "if", 
+    "inline", "int", "long", "register", "restrict", "return", "short", 
+    "signed", "sizeof", "static", "struct", "switch", "typedef", 
+    "union", "unsigned", "void", "volatile", "while", "_Alignas", 
+    "_Alignof", "_Atomic", "_Bool", "_Complex", "_Generic", "_Imaginary", 
+    "_Noreturn", "_Static_assert", "_Thread_local"
+};
+
+char operators[] = "+-*/%=&|^~!<>?:.,";
+char delimiters[] = ",;(){}[]#\"'";
 
 int isDelimiter(char ch) {
     for (int i = 0; delimiters[i] != '\0'; i++) {

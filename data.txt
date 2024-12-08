@@ -1,2 +1,7 @@
-These are few sentences in mini
-Language
+#include<stdio.h>
+int main()
+{
+    printf("Hello World!");//Ami manush
+
+    return 0;
+}
