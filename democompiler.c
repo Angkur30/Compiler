@@ -60,8 +60,6 @@ void codeGenerate() {
     generateThreeAddressCode(postfix);
 }
 
-                    
-//char operators[] = "+-*/%=<>", delimiters[] = ",;(){}[]";
 
 int isDelimiter(char ch) {
     for (int i = 0; delimiters[i] != '\0'; i++) {
@@ -103,15 +101,13 @@ int isIdentifier(char* word) {
 }
 int isNumber(char *word) {
     int i = 0, hasDecimal = 0;
-
-    // Check if the word starts with a digit or a dot (for decimals)
     if (word[i] == '.' || isdigit(word[i])) {
         for (; word[i] != '\0'; i++) {
             if (word[i] == '.') {
-                if (hasDecimal) return 0; // More than one decimal point
+                if (hasDecimal) return 0; 
                 hasDecimal = 1;
             } else if (!isdigit(word[i])) {
-                return 0; // Non-digit character
+                return 0; 
             }
         }
         return 1;
@@ -226,7 +222,7 @@ void demoCompiler() {
     char str[500];
     char str2[500];
     int choice;
-    printf("Do you want to read from file? \nthen enter 1\n ");
+    printf("Do you want to read from file? \nthen enter 1 otherwise 2 .\n ");
     scanf("%d",&choice);
 
     if(choice ==1)
@@ -265,4 +261,5 @@ int main() {
             printf("Invalid Input!!!\n");
         }
     }
+    
 }
