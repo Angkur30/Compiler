@@ -1,3 +1,4 @@
+//C program that will show Syntax table (letter, digits, symbol, arithmetic/logical operator)
 #include<stdio.h>
 
 int main()

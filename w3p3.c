@@ -7,6 +7,7 @@ int main()
     char str[]="These are few Sentences";
     int i=0,j=0;
     char str2[15];
+    printf("%s\n",str);
     
     while(str[i]!='\0')
     {
@@ -27,7 +28,5 @@ int main()
     str2[j]='\0';
     printf("%s\n",str2);
 
-
     return 0;
-
 }

@@ -1,3 +1,4 @@
+//C program to test whether a given string is keyword/valid identifier or not.
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>

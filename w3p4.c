@@ -7,6 +7,7 @@ int main()
     char str[]="These are few sentences";
     const char s[2]=" ";
     char *token;
+    printf("%s\n",str);
 
     token=strtok(str,s);
 

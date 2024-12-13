@@ -29,8 +29,8 @@ int main()
         }
         i++;
     }
+    printf("%s\n",str);
     printf("Vowel: %d\nConsonent: %d\nDigit:%d\n",v,c,n);
-
     
     return 0;
 }

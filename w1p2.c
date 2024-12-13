@@ -57,8 +57,6 @@ int main()
 {
     char str[50];
     gets(str);
-    //char str[100]="Hello, World!\nThis is a test.\nCounting lines in this string.";
-
 
     printf("%s\n",str);
 

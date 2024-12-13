@@ -39,7 +39,5 @@ int main()
         printf("Rejected\n");
     }
 
-
-
     return 0;
 }
